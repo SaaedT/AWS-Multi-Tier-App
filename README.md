@@ -86,4 +86,4 @@ The project architecture consists of:
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YourUsername/AWS-Multi-Tier-App.git
+   git clone https://github.com/SaaedT/AWS-Multi-Tier-App.git
