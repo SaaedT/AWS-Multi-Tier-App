@@ -32,7 +32,7 @@ The project architecture consists of:
 
 ### Step 1: Create a Custom VPC
 - Created a custom VPC with a CIDR block of `10.0.0.0/16`.
-![VPC Setup](screenshots/1-Create-VPC.png)
+![VPC Setup](secreenshots/1-Create-VPC.png)
 
 ### Step 2: Configure Internet Gateway (IGW)
 - Attached an IGW to the VPC for internet connectivity.
