@@ -28,10 +28,31 @@ The project architecture consists of:
 
 ---
 
+## Project Explanation
+This project implements a scalable and secure web application infrastructure using AWS services. Below is a detailed breakdown:
+
+1. **Custom VPC:** Designed to isolate and segment resources, providing enhanced security.
+2. **Subnets:** Public subnets handle external traffic, while private subnets are used for internal communication.
+3. **Application Load Balancer (ALB):** Ensures efficient distribution of incoming traffic to backend instances.
+4. **Auto Scaling:** Automatically adjusts the number of instances based on demand.
+
+### Screenshots of Implementation
+
+- **VPC CIDR Block:**
+  ![VPC CIDR Block](CAPSTONE PROJECT/P-1.png)
+
+- **Subnet Configuration:**
+  ![Subnet Configuration](CAPSTONE PROJECT/P-2.png)
+
+- **Route Table Associations:**
+  ![Route Table Associations]CAPSTONE PROJECT/P-3.png)
+
+---
+
 ## Steps to Implement
 
 ### Step 1: Create a Custom VPC
-- Created a custom VPC with a CIDR block of `10.0.0.0/16`.
+- Created a custom VPC with a CIDR block of 10.0.0.0/16.
 ![VPC Setup](secreenshots/1-Create-VPC.png)
 
 ### Step 2: Configure Internet Gateway (IGW)
@@ -87,3 +108,4 @@ The project architecture consists of:
 1. Clone this repository:
    ```bash
    git clone https://github.com/SaaedT/AWS-Multi-Tier-App.git
+   ```
