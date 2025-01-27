@@ -36,19 +36,19 @@ This project implements a scalable and secure web application infrastructure usi
 3. **Application Load Balancer (ALB):** Ensures efficient distribution of incoming traffic to backend instances.
 4. **Auto Scaling:** Automatically adjusts the number of instances based on demand.
 
-### Screenshots of Implementation
+### Project Content
 
 - **VPC CIDR Block:**
 - 
- ![VPC CIDR Block](CAPSTONE-PROJECT/P-1.png)
+ ![VPC CIDR Block](THE-PROJECT/P-1.png)
 
 - **Subnet Configuration:**
 - 
- ![Subnet Configuration](CAPSTONE-PROJECT/P-2.png)
+ ![Subnet Configuration](THE-PROJECT/P-2.png)
 
 - **Route Table Associations:**
 - 
- ![Route Table Associations](CAPSTONE-PROJECT/P-3.png)
+ ![Route Table Associations](THE-PROJECT/P-3.png)
 
 ---
 
